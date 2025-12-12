@@ -1,0 +1,4 @@
+.env
+homework.db
+__pycache__
+*.pyc
