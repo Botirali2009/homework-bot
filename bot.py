@@ -1,5 +1,4 @@
 import os
-from dotenv import load_dotenv
 import re
 import sqlite3
 from datetime import datetime, timedelta
@@ -10,8 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 # ============================================
 # SOZLAMALAR
 # ============================================
-load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "8200840552:AAFrcFLyjyQPKUL1Xgz9aLxiB5EAZcvmOmI"
 SUPER_ADMIN = 6664108424
 ADMINS = [6664108424]
 GROUP_CHAT_ID = -1003424440596  # Guruh ID'si (get_group_id.py bilan oling)
@@ -912,6 +910,4 @@ def main():
 
 
 if __name__ == '__main__':
-
     main()
-
