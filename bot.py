@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 # ============================================
 # SOZLAMALAR
 # ============================================
-BOT_TOKEN = "8200840552:AAFrcFLyjyQPKUL1Xgz9aLxiB5EAZcvmOmI"
+BOT_TOKEN = "BOT_TOKEN"
 SUPER_ADMIN = 6664108424
 ADMINS = [6664108424]
 GROUP_CHAT_ID = -1003424440596  # Guruh ID'si (get_group_id.py bilan oling)
@@ -911,3 +911,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
